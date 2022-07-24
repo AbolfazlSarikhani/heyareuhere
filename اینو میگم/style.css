@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    direction: ltr;
+    list-style: none;
+}
+
+.top-menu {
+    background-color: #adadad;
+    color: #FFFFFF;
+    width: 100%;
+    height: 46px;
+    padding-bottom: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+}
+
+.top-menu a {
+    color: #FFFFFF;
+}
+
+.top-menu li {
+    float: left;
+    margin-right: 45px;
+    padding: 8px 1px;
+    transition: 0.6s;
+}
+
+.top-menu li:hover {
+    background: rgba(240, 61, 61, 0.601);
+    padding: 11px 1px;
+
+
+}
+
+.location-top-menu {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.search {
+    float: right;
+}
+
+.search form input[type=text] {
+    padding: 8px 23px;
+    border-radius: 5px;
+    margin: 8px 0px;
+}
+
+.search form input[type=submit] {
+    border-radius: 15px;
+    padding: 2px 4px;
+    margin: 8px 25px;
+    background: rgba(#5b5b5b);
+    background:url() ;
+    
+}
