@@ -24,8 +24,8 @@
 
 .top-menu li {
     float: left;
-    margin-right: 45px;
-    padding: 8px 1px;
+    margin-right: 50px;
+    padding: 8px 20px;
     transition: 0.6s;
 }
 
@@ -72,25 +72,30 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 0 175px;
     flex-direction: row ;
+    
 }
 .footer-heading{
     display: flex;
     flex-direction: column;
     margin: right;
+    
 }
 .footer-heading h2{
     margin-bottom: 2rem;
+    
 }
 .footer-heading a{
     color: #FFFFFF;
     text-decoration: none;
     margin-bottom: 5rem;
+    
 }
 .footer-heading a:hover{
     color: red;
     transition: 0.3s ease-out;
+    
 }
 .footer-email-form h2{
     margin-bottom: 2rem;
@@ -144,12 +149,24 @@
         margin-top: 2rem;
     }
 }
-    
+.logo{
+    float: left;
+   font-size: 35px;
+   padding: -8px -20px;
+   font-family:'Times New Roman', Times, serif;
+   margin: 1px;
+}
+.row {
+    display: flex;
+  }
+   
+  /* Create three equal columns that sits next to each other */
+  .column {
+    float: 100%;
+    padding: 20px;
+    margin: 20px 20px;
+    width: 100%;
+    height: 100%;
 
-
-
-
-
-
-
+  }
 
